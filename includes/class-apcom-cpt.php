@@ -54,6 +54,8 @@ class APcom_CPT {
 
 		$this->load_dependencies();
 		$this->set_locale();
+		register_activation_hook( __FILE__, array( $this, 'activate' ) );
+		register_deactivation_hook( __FILE__, array( $this, 'deactivate' ) );
 	}
 
 	/**
@@ -86,12 +88,73 @@ class APcom_CPT {
 	}
 
 	/**
+	 * Register a Thematic custom post type.
+	 *
+	 * @since 0.1.0
+	 */
+	private function register_thematic_post_type() {
+		$singular_name = __( 'Thematic', 'APComCPT' );
+		$plural_name   = __( 'Thematics', 'APComCPT' );
+		$description   = __( 'Thematic custom post type.', 'APComCPT' );
+		$icon          = 'dashicons-category';
+
+		$thematic_cpt = new CPT( $singular_name, $plural_name, $description, $icon, 5 );
+		$thematic_cpt->init();
+	}
+
+	/**
+	 * Register a Topic custom post type.
+	 *
+	 * @since 0.1.0
+	 */
+	private function register_topic_post_type() {
+		$singular_name = __( 'Topic', 'APComCPT' );
+		$plural_name   = __( 'Topics', 'APComCPT' );
+		$description   = __( 'Topic custom post type.', 'APComCPT' );
+		$icon          = 'dashicons-tag';
+
+		$topic_cpt = new CPT( $singular_name, $plural_name, $description, $icon, 6 );
+		$topic_cpt->init();
+	}
+
+	/**
+	 * Update permalinks.
+	 *
+	 * @since 0.1.0
+	 */
+	private function update_permalinks() {
+		flush_rewrite_rules();
+	}
+
+	/**
+	 * Fires when the plugin is activated.
+	 *
+	 * @since 0.1.0
+	 */
+	public function activate() {
+		$this->register_thematic_post_type();
+		$this->register_topic_post_type();
+		$this->update_permalinks();
+	}
+
+	/**
+	 * Fires when the plugin is deactivated.
+	 *
+	 * @since 0.1.0
+	 */
+	public function deactivate() {
+		$this->update_permalinks();
+	}
+
+	/**
 	 * Execute the plugin.
 	 *
 	 * @since 0.1.0
 	 */
 	public function run() {
 		$this->set_locale();
+		$this->register_thematic_post_type();
+		$this->register_topic_post_type();
 	}
 
 	/**

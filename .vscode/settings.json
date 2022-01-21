@@ -3,5 +3,6 @@
 		"editor.defaultFormatter": "wongjn.php-sniffer"
 	},
 	"phpSniffer.autoDetect": true,
-	"phpSniffer.executablesFolder": "./vendor/squizlabs/php_codesniffer/bin/"
+	"phpSniffer.executablesFolder": "./vendor/squizlabs/php_codesniffer/bin/",
+	"cSpell.words": [ "dashicons", "Thematics" ]
 }

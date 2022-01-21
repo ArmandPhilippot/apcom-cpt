@@ -96,6 +96,15 @@ class CPT {
 	}
 
 	/**
+	 * Add a hook to register the CPT.
+	 *
+	 * @since 0.1.0
+	 */
+	public function init() {
+		add_action( 'init', array( $this, 'register' ) );
+	}
+
+	/**
 	 * Register a new custom post type.
 	 *
 	 * @see get_post_type_labels() for label keys.
