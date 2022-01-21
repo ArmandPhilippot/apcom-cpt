@@ -1,0 +1,37 @@
+{
+	"name": "armandphilippot/apcom-cpt",
+	"description": "Custom Post Types for my personal website.",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Armand Philippot",
+			"email": "contact@armandphilippot.com",
+			"homepage": "https://www.armandphilippot.com/"
+		}
+	],
+	"homepage": "https://github.com/ArmandPhilippot/apcom-cpt#readme",
+	"support": {
+		"issues": "https://github.com/ArmandPhilippot/apcom-cpt/issues",
+		"source": "https://github.com/ArmandPhilippot/apcom-cpt"
+	},
+	"keywords": [
+		"WordPress",
+		"plugin"
+	],
+	"type": "wordpress-plugin",
+	"require": {
+		"composer/installers": "^1.0 || ^2.0"
+	},
+	"require-dev": {
+		"wp-coding-standards/wpcs": "^2.3",
+		"squizlabs/php_codesniffer": "^3.6",
+		"phpcompatibility/phpcompatibility-wp": "^2.1",
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.1"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true,
+			"composer/installers": true
+		}
+	}
+}
