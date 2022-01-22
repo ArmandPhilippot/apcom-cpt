@@ -93,12 +93,11 @@ class APcom_CPT {
 	 * @since 0.1.0
 	 */
 	private function register_thematic_post_type() {
-		$singular_name = __( 'Thematic', 'APComCPT' );
-		$plural_name   = __( 'Thematics', 'APComCPT' );
-		$description   = __( 'Thematic custom post type.', 'APComCPT' );
+		$singular_name = 'Thematic';
+		$plural_name   = 'Thematics';
 		$icon          = 'dashicons-category';
 
-		$thematic_cpt = new CPT( $singular_name, $plural_name, $description, $icon, 5 );
+		$thematic_cpt = new CPT( $singular_name, $plural_name, $icon, 5 );
 		$thematic_cpt->init();
 	}
 
@@ -108,12 +107,11 @@ class APcom_CPT {
 	 * @since 0.1.0
 	 */
 	private function register_topic_post_type() {
-		$singular_name = __( 'Topic', 'APComCPT' );
-		$plural_name   = __( 'Topics', 'APComCPT' );
-		$description   = __( 'Topic custom post type.', 'APComCPT' );
+		$singular_name = 'Topic';
+		$plural_name   = 'Topics';
 		$icon          = 'dashicons-tag';
 
-		$topic_cpt = new CPT( $singular_name, $plural_name, $description, $icon, 6 );
+		$topic_cpt = new CPT( $singular_name, $plural_name, $icon, 6 );
 		$topic_cpt->init();
 	}
 

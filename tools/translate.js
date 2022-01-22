@@ -14,7 +14,7 @@ if ( myDotenv.error ) {
 	throw myDotenv.error;
 }
 
-dotenvExpand( myDotenv );
+dotenvExpand.expand( myDotenv );
 
 const options = {
 	bugReport: process.env.WP_PLUGIN_REPO + '/issues',

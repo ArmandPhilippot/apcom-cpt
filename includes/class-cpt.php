@@ -78,17 +78,17 @@ class CPT {
 	 *
 	 * @param string  $singular The singular post type name: a single word.
 	 * @param string  $plural The plural post type name: a single word.
-	 * @param string  $description A short descriptive summary.
 	 * @param string  $icon Dashicons helper class or base64-encoded SVG using a data URI.
 	 * @param int     $position The position in the menu.
 	 * @param boolean $enable_archives Whether there should be post type archives.
 	 * @param boolean $enable_comments Whether the post type should support comments.
 	 */
-	public function __construct( $singular, $plural, $description, $icon, $position, $enable_archives = false, $enable_comments = false ) {
-		$this->id              = strtolower( $singular );
-		$this->singular_name   = $singular;
-		$this->name            = $plural;
-		$this->description     = $description;
+	public function __construct( $singular, $plural, $icon, $position, $enable_archives = false, $enable_comments = false ) {
+		$this->id            = strtolower( $singular );
+		$this->singular_name = $singular;
+		$this->name          = $plural;
+		// translators: %s custom post type singular name.
+		$this->description     = sprintf( __( 'Custom Post Type: %s', 'APComCPT' ), $singular );
 		$this->icon            = $icon;
 		$this->position        = $position;
 		$this->enable_archives = $enable_archives;
