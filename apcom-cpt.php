@@ -16,7 +16,7 @@
  * Plugin Name:       APcom CPT
  * Plugin URI:        https://github.com/ArmandPhilippot/apcom-cpt
  * Description:       Custom post types for my personal website.
- * Version:           0.1.0
+ * Version:           1.0.0
  * Requires at least: 5.2
  * Requires PHP:      7.2
  * Author:            Armand Philippot
@@ -39,7 +39,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Start at version 0.1.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'APCOM_CPT_VERSION', '0.1.0' );
+define( 'APCOM_CPT_VERSION', '1.0.0' );
 
 /**
  * The core plugin class that is used to define internationalization and custom
