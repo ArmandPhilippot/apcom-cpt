@@ -1,0 +1,144 @@
+# Copyright (C) 2022 APcom-CPT
+# This file is distributed under the same license as the APcom-CPT package.
+msgid ""
+msgstr ""
+"Project-Id-Version: APcom-CPT\n"
+"Report-Msgid-Bugs-To: https://github.com/ArmandPhilippot/apcom-cpt/"
+"issues\n"
+"POT-Creation-Date: 2022-01-22 17:12+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Armand Philippot <contact@armandphilippot.com>\n"
+"Language-Team: Armand Philippot <contact@armandphilippot.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;"
+"esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-apcom-cpt.php:53
+msgid "Custom post types for my personal website."
+msgstr "Types d'article personnalisés pour mon site personnel."
+
+#: includes/class-cpt.php:91
+#, php-format
+msgid "Custom Post Type: %s"
+msgstr "Type d'article personnalisé: %s"
+
+#: includes/class-cpt.php:120
+msgid "Add New"
+msgstr "Ajouter"
+
+#: includes/class-cpt.php:123
+#, php-format
+msgid "Add New %s"
+msgstr "Ajouter %s"
+
+#: includes/class-cpt.php:128
+#, php-format
+msgid "New %s"
+msgstr "Nouveau %s"
+
+#: includes/class-cpt.php:133
+#, php-format
+msgid "Edit %s"
+msgstr "Modifier %s"
+
+#: includes/class-cpt.php:138
+#, php-format
+msgid "View %s"
+msgstr "Voir tous les %s"
+
+#: includes/class-cpt.php:143
+#, php-format
+msgid "All %s"
+msgstr "Tous les %s"
+
+#: includes/class-cpt.php:148
+#, php-format
+msgid "Search %s"
+msgstr "Rechercher des %s"
+
+#: includes/class-cpt.php:153
+#, php-format
+msgid "Parent %s"
+msgstr "Parent de %s"
+
+#: includes/class-cpt.php:158
+#, php-format
+msgid "No %s found"
+msgstr "Aucun %s trouvé"
+
+#: includes/class-cpt.php:163
+#, php-format
+msgid "No %s found in trash"
+msgstr "Aucun %s trouvé dans la corbeille"
+
+#: includes/class-cpt.php:168
+#, php-format
+msgid "%s Featured Image"
+msgstr "Image à la une de %s"
+
+#: includes/class-cpt.php:171
+msgid "Set featured image"
+msgstr "Définir une image à la une"
+
+#: includes/class-cpt.php:172
+msgid "Remove featured image"
+msgstr "Supprimer l'image à la une"
+
+#: includes/class-cpt.php:173
+msgid "Use as featured image"
+msgstr "Utiliser en tant qu'image à la une"
+
+#: includes/class-cpt.php:176
+#, php-format
+msgid "%s Archives"
+msgstr "Archives de %s"
+
+#: includes/class-cpt.php:181
+#, php-format
+msgid "Insert into %s"
+msgstr "Insérer dans %s"
+
+#: includes/class-cpt.php:186
+#, php-format
+msgid "Upload to this %s"
+msgstr "Télécharger dans %s"
+
+#: includes/class-cpt.php:191
+#, php-format
+msgid "Filter %s list"
+msgstr "Filtrer la liste des %s"
+
+#: includes/class-cpt.php:196
+#, php-format
+msgid "%s list navigation"
+msgstr "Navigation au sein de la liste des %s"
+
+#: includes/class-cpt.php:201
+#, php-format
+msgid "%s list"
+msgstr "Liste des %s"
+
+#~ msgid "Thematic"
+#~ msgstr "Thématique"
+
+#~ msgid "Thematics"
+#~ msgstr "Thématiques"
+
+#~ msgid "Thematic custom post type."
+#~ msgstr "Type d'article personnalisé: Thématique."
+
+#~ msgid "Topic"
+#~ msgstr "Sujet"
+
+#~ msgid "Topics"
+#~ msgstr "Sujets"

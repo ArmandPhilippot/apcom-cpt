@@ -1,0 +1,122 @@
+# Copyright (C) 2022 APcom-CPT
+# This file is distributed under the same license as the APcom-CPT package.
+msgid ""
+msgstr ""
+"Project-Id-Version: APcom-CPT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Armand Philippot <contact@armandphilippot.com>\n"
+"Last-Translator: Armand Philippot <contact@armandphilippot.com>\n"
+"Report-Msgid-Bugs-To: https://github.com/ArmandPhilippot/apcom-cpt/issues\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../includes/class-apcom-cpt.php:53
+msgid "Custom post types for my personal website."
+msgstr ""
+
+#. translators: %s custom post type singular name.
+#: ../includes/class-cpt.php:91
+msgid "Custom Post Type: %s"
+msgstr ""
+
+#: ../includes/class-cpt.php:120
+msgid "Add New"
+msgstr ""
+
+#. translators: %s Custom post type singular name.
+#: ../includes/class-cpt.php:123
+msgid "Add New %s"
+msgstr ""
+
+#. translators: %s Custom post type singular name.
+#: ../includes/class-cpt.php:128
+msgid "New %s"
+msgstr ""
+
+#. translators: %s Custom post type singular name.
+#: ../includes/class-cpt.php:133
+msgid "Edit %s"
+msgstr ""
+
+#. translators: %s Custom post type singular name.
+#: ../includes/class-cpt.php:138
+msgid "View %s"
+msgstr ""
+
+#. translators: %s Custom post type name.
+#: ../includes/class-cpt.php:143
+msgid "All %s"
+msgstr ""
+
+#. translators: %s Custom post type name.
+#: ../includes/class-cpt.php:148
+msgid "Search %s"
+msgstr ""
+
+#. translators: %s Custom post type name.
+#: ../includes/class-cpt.php:153
+msgid "Parent %s"
+msgstr ""
+
+#. translators: %s Custom post type name.
+#: ../includes/class-cpt.php:158
+msgid "No %s found"
+msgstr ""
+
+#. translators: %s Custom post type name.
+#: ../includes/class-cpt.php:163
+msgid "No %s found in trash"
+msgstr ""
+
+#. translators: %s Custom post type singular name.
+#: ../includes/class-cpt.php:168
+msgid "%s Featured Image"
+msgstr ""
+
+#: ../includes/class-cpt.php:171
+msgid "Set featured image"
+msgstr ""
+
+#: ../includes/class-cpt.php:172
+msgid "Remove featured image"
+msgstr ""
+
+#: ../includes/class-cpt.php:173
+msgid "Use as featured image"
+msgstr ""
+
+#. translators: %s Custom post type singular name.
+#: ../includes/class-cpt.php:176
+msgid "%s Archives"
+msgstr ""
+
+#. translators: %s Custom post type singular name.
+#: ../includes/class-cpt.php:181
+msgid "Insert into %s"
+msgstr ""
+
+#. translators: %s Custom post type singular name.
+#: ../includes/class-cpt.php:186
+msgid "Upload to this %s"
+msgstr ""
+
+#. translators: %s Custom post type name.
+#: ../includes/class-cpt.php:191
+msgid "Filter %s list"
+msgstr ""
+
+#. translators: %s Custom post type name.
+#: ../includes/class-cpt.php:196
+msgid "%s list navigation"
+msgstr ""
+
+#. translators: %s Custom post type name.
+#: ../includes/class-cpt.php:201
+msgid "%s list"
+msgstr ""
